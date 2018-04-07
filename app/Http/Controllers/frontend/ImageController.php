@@ -28,7 +28,6 @@ class ImageController extends Controller
 
     public function index(Request $request)
     {
-
 //        $groups = Groups::where([['status', '=', 1], ['id', '<>', 1]])
 //            ->with(['image' => function ($q) {
 //                $q->where('status', '=', 1);
