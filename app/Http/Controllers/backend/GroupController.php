@@ -134,7 +134,7 @@ class GroupController extends Controller
                 $dir = $this->folder_save_image_group;
                 $filename = uniqid() . '_' . time() . '.' . $extension;
 //                $request->file('image_thumbnail')->move($dir, $filename);
-                compress($request->file('image_thumbnail'), public_path($dir) . $filename,
+                compress($request->file('image_thumbnail'), $dir . $filename,
                     $this->quantity_image);
 
                 $filepath = $group->thumbnail;

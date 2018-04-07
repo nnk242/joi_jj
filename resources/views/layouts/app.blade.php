@@ -10,6 +10,9 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <!-- icon page -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('logo.png') }}" />
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- Common -->
